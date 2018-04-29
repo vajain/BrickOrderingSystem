@@ -1,4 +1,4 @@
-package com.bos.exception;
+package com.shop.exception;
 
 /**
  * This is custom exception class through which custom messages can be propagated to UI.
@@ -6,7 +6,7 @@ package com.bos.exception;
  * @author Vaishali
  * @version 1.0
  */
-public class OrderErrorResponse {
+public class ErrorResponse {
     private int errorCode;
     private String errorMessage;
     
